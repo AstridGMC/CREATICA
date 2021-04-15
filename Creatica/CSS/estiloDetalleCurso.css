@@ -1,0 +1,12 @@
+.tituloP {
+    font-size: 6rem;
+		color: black;
+		text-align: center;
+		margin-top: 0;
+		text-transform: uppercase;
+		font-weight: 900;
+}
+
+#Tcurso{
+    font-size: 1.6rem;
+}

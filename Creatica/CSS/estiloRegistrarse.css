@@ -1,0 +1,132 @@
+#cuadro{
+    width: 600px;
+    height: 950px;
+    border: 5px solid rgb(3, 89, 95);
+    border-bottom: 10px solid rgb(3, 89, 95);
+    border-right: 10px solid rgb(3, 89, 95);
+    margin-top: 25px;
+    margin-left: 30%;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 10px;
+} 
+
+.col{
+    padding-left: 40px ;
+}
+
+
+#centro{
+    padding-top: 40px;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(3, 89, 95);;
+    height: 2px;
+}
+
+#superior{
+    text-align: center;
+    height: 70px;
+    width: 550px;
+    color: #000;
+    margin: 20px 20px 20px 20px;
+    border-bottom: 5px;
+}
+
+#titulo{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 45px;
+}
+#titulo2{
+    padding-left: 25px;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#inferior{
+    font-size: 20px;
+    height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.caja_inline {
+    display: inline-block;
+    width: 45%;
+}
+
+#div1{
+    padding-top: 30px;
+}
+
+#div2{
+    padding-top: 30px;
+}
+#user{
+    width: 200px;
+    text-align: center;
+}
+
+#telefono{
+    width: 200px;
+    text-align: center;
+}
+
+#correo{
+    width: 200px;
+    text-align: center;
+}
+
+#div3{
+    padding-top: 10px;
+}
+
+#usuario{
+    margin-top: 20px;
+}
+
+#div4{
+    padding-top: 10px;
+}
+
+#div5{
+    padding-top: 10px;
+}
+
+.radio{
+    padding-left: 100px;
+    align-items: center;
+}
+
+#registrarse{
+    color: white;
+    height:  50px;
+    margin-top: 10px;
+    margin-left: 25%;
+    width: 200px;
+    background-color:rgb(2, 36, 56);
+}
+
+.form__input{
+    height: 35px;
+    font-size: 15px;
+    margin-left: 5px;
+    width: 450px;
+}
+.form__input:valid {
+  border-color: forestgreen;
+}
+
+.form__input:valid + .icon::after {
+  content: '✔️';
+}
+
+.form__input:invalid {
+  border-color: firebrick;
+}
+
+.form__input:invalid + .icon::after {
+  content: "❌";
+}
